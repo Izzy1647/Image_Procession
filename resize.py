@@ -1,7 +1,11 @@
 import cv2
 import os
 
+
+#gtding@shu.edu.cn
+
 img = cv2.imread('lena.jpeg',-1)
+print("img:",img)
 
 
 height, width = img.shape[:2]
@@ -10,6 +14,7 @@ print("h&w:",height,width)
 # 缩小图像
 size = (int(width * 0.3), int(height * 0.5))
 shrink = cv2.resize(img, size, interpolation=cv2.INTER_AREA)
+
 
 # 放大图像
 fx = 1.6

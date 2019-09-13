@@ -27,7 +27,6 @@
         <entry file="file://$PROJECT_DIR$/GammaBlock.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret lean-forward="true" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -35,14 +34,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="resize.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="resize.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resize.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="43" column="11" lean-forward="true" selection-start-line="43" selection-start-column="11" selection-end-line="43" selection-end-column="11" />
+            <state relative-caret-position="799">
+              <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="median_filter.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/median_filter.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -93,13 +101,14 @@
         <option value="$PROJECT_DIR$/11.py" />
         <option value="$PROJECT_DIR$/profile.py" />
         <option value="$PROJECT_DIR$/resize.py" />
+        <option value="$PROJECT_DIR$/median_filter.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="803" />
+    <option name="height" value="797" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -142,7 +151,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.resize">
+  <component name="RunManager" selected="Python.median_filter">
     <configuration name="11" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ImageProcession" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -179,7 +188,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="lab" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="median_filter" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ImageProcession" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -187,11 +196,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Desktop/大数据从理论到实践" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/大数据从理论到实践/lab.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/median_filter.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -235,18 +244,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.GammaBlock" />
-      <item itemvalue="Python.lab" />
       <item itemvalue="Python.11" />
       <item itemvalue="Python.profile" />
       <item itemvalue="Python.resize" />
+      <item itemvalue="Python.median_filter" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.median_filter" />
         <item itemvalue="Python.resize" />
         <item itemvalue="Python.GammaBlock" />
         <item itemvalue="Python.profile" />
         <item itemvalue="Python.11" />
-        <item itemvalue="Python.lab" />
       </list>
     </recent_temporary>
   </component>
@@ -264,19 +273,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="801" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="798" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15997182" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.29857144" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.296875" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39857143" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -295,13 +304,6 @@
     </ignored-roots>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/camera.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/block.py" />
     <entry file="file://$PROJECT_DIR$/blockDemo.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -520,7 +522,6 @@
     <entry file="file://$PROJECT_DIR$/GammaBlock.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret lean-forward="true" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
@@ -539,11 +540,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resize.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="43" column="11" lean-forward="true" selection-start-line="43" selection-start-column="11" selection-end-line="43" selection-end-column="11" />
+        <state relative-caret-position="799">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/median_filter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
         </state>
       </provider>
     </entry>
