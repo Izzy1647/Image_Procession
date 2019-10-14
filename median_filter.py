@@ -28,10 +28,10 @@ def access_pixels(frame):  # 操作图像的像素
     # 新图片的矩阵
     # new_frame = [[0 for t in range(3)] for i in range(height*weight*channels)]
 
-    new_frame = np.zeros((channels, weight, height), dtype=np.int)
-    print(len(new_frame))  #7500000
+    # new_frame = np.zeros((channels, weight, height), dtype=np.int)
+    # print(len(new_frame))  #7500000
 
-    print("weight : %s, height : %s, channel : %s" % (weight, height, channels))
+    # print("weight : %s, height : %s, channel : %s" % (weight, height, channels))
 
     pvList = []
 
@@ -41,27 +41,31 @@ def access_pixels(frame):  # 操作图像的像素
                 pv = frame[row, col, c]
                 pvList.append(pv) # 计算像素总个数
 
-                if row>0 & row<499 & col>0 & col<499:
+                if row>0 & row<499 & col>0 & col<499 :
                     nlist = []
                     nlist.extend([frame[row-1,col-1,c],frame[row-1,col,c],frame[row-1,col+1,c],
                                   frame[row,col-1,c],frame[row,col+1,c],frame[row+1,col-1,c],
                                   frame[row+1,col,c],frame[row+1,col+1,c]])
                     resPv = find_median(nlist)
-                    print(resPv)
-                    new_frame[row,col,c] = resPv
+                    # print(resPv)
+                    frame[row,col,c] = resPv
+                    # new_frame[row,col,c] = resPv
 
                 else:
-                    new_frame[row,col,c] = frame[row,col,c]
+                    pass
 
                 # frame[row, col, c] = 255 - pv  # 全部像素取反，实现一个反向效果
-    print(len(resPv))
-    cv.imshow("median_filtered", new_frame)
+    # print(len(resPv))
+    cv.imshow("median_filtered", frame)
     #
     # print(len(pvList))
     # print(frame[499,499,1])
+def main():
+    image = 'lena.jpeg'
+    src = cv.imread(image)
+    cv.imshow("Picture", src)
+    access_pixels(src)
+    cv.waitKey(0)
 
-image = 'lena.jpeg'
-src = cv.imread(image)
-cv.imshow("Picture", src)
-access_pixels(src)
-cv.waitKey(0)
+if __name__ == "__main__":
+    main()

@@ -46,4 +46,10 @@ def pngsToGif(folderUrl):  # 文件夹中保存多张图片拼接
 
 # pngsToGif()
 
-pngsToGif("/Users/zzy/PycharmProjects/ImageProcession/img/sticker1")
+def main():
+    pngsToGif("/Users/zzy/PycharmProjects/ImageProcession/img/sticker1")
+
+if __name__ == '__main__':
+    main()
+
+

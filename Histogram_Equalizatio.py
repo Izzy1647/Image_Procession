@@ -19,15 +19,10 @@ rH = cv2.equalizeHist(r)
 result = cv2.merge((bH, gH, rH))
 cv2.imshow("result", result)
 
-#
-# #灰度图均衡化
-# eq = cv2.equalizeHist(img)
-# cv2.imshow('image2',eq)
-# cv2.waitKey(0)
-
 hist = cv2.calcHist([result], [0], None, [256], [0, 256])
 plt.hist(result.ravel(), 256, [0, 256])
 plt.show()
+
 
 
 #cv2.imwrite('vi2.jpg',eq)      #保存图片在当前目录下

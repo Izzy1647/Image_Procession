@@ -2,7 +2,7 @@ import cv2
 import os
 
 
-#gtding@shu.edu.cn
+#gtding@t.shu.edu.cn
 
 img = cv2.imread('lena.jpeg',-1)
 print("img:",img)
